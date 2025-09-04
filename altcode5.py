@@ -1,5 +1,3 @@
-# uv: uvicorn==0.22.0
-import uvicorn
 import tkinter as tk
 from tkinter import messagebox
 import xlsxwriter
@@ -122,5 +120,6 @@ text_input.pack(padx=10)
 tk.Button(root, text="Export to Excel", command=export_to_excel).pack(pady=10)
 
 root.mainloop()
+
 
 #meta names Title: TI; Inventor: inventor; Assignee: assignee; Publication Date:  publication_date
